@@ -1,0 +1,8 @@
+{
+  "items": [
+    { "id": 1, "name": "Chilli", "cost": 150 },
+    { "id": 2, "name": "Hamburguer", "cost": 200 },
+    { "id": 3, "name": "Tacos", "cost": 220 },
+    { "id": 4, "name": "Pizza", "cost": 300 }
+  ]
+}
