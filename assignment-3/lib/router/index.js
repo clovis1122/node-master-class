@@ -55,7 +55,7 @@ router.handleRequest = async function(req, res) {
   try {
     const payload = await router._server.parsePayloadAsync(req); 
     details.payload = JSON.parse(payload) || {};
-  } catch {
+  } catch(e) {
     details.payload = {};
   }
 

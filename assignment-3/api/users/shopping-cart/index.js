@@ -43,7 +43,7 @@ shoppingCart.get = async function(req) {
   try {
     const userCart = await shoppingCart._db.read('shopping-carts', email);
     return { statusCode: 200, data: userCart };
-  } catch {
+  } catch(e) {
     return { statusCode: 200, data: [] };
   }
 };
