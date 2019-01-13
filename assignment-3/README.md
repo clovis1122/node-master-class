@@ -13,7 +13,7 @@ Go to localhost:3000 and it will send you (the first time) to the login screen. 
 When you've logged in you will have access to the Dashboard where you can add items to your cart and place the order when you feel ready. You will be prompted for your Credit Card. After you enter it, you will receive an email from Mailgun and the payment will be processed using Stripe. All your orders are going to be visible in the Dashboard.
 
 <div align="center">
-  <img src="assets/assignment-3-dashboard.png" alt="Dashboard image" />
+  <img src="../assets/assignment-3-dashboard.png" alt="Dashboard image" />
 </div>
 
 ## Using the API
