@@ -1,0 +1,47 @@
+@include('header')
+<h1>Menu</h1>
+<h2>Select the items that you want to add</h2>
+<hr />
+
+<table id="menuListTable">
+  <tr>
+    <th>Identifier</th>
+    <th>Name</th>
+    <th>Prize</th>
+    <th>Action</th>
+  </tr>
+</table>
+
+<hr />
+
+<h1>Shopping Cart</h1>
+<h2>Tweak your shopping cart orders</h2>
+<hr />
+
+<table id="shoppingCartTable">
+  <tr>
+    <th>Item</th>
+    <th>Amount</th>
+    <th>Total</th>
+  </tr>
+</table>
+
+<div class="ctaWrapper placeOrder">
+  <a class="cta green" href="orders/create">Place Order</a>
+</div>
+
+<hr />
+
+<h1>Orders</h1>
+<h2>These are the orders that you've made with us</h2>
+<hr />
+
+<table id="ordersTable">
+  <tr>
+    <th>Identifier</th>
+    <th>Items</th>
+    <th>Total</th>
+  </tr>
+</table>
+
+@include('footer')
